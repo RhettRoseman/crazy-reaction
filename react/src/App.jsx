@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <Aboutme />
+  
     </div>
   );
 }

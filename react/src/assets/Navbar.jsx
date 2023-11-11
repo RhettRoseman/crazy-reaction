@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css'; // Import your CSS file for styling
+import Portfolio from './portfolio';
 
 const Navbar = () => {
   return (
@@ -8,7 +11,7 @@ const Navbar = () => {
           <a href="/aboutme">About me</a>
         </li>
         <li>
-          <a href="/portfolio">Portfolio</a>
+          <a href="/portfolio" onClick={(Portfolio)}>Portfolio</a>
         </li>
         <li>
           <a href="/contact">Contact</a>
